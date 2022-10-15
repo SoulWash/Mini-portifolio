@@ -25,7 +25,7 @@ body {
     padding: 30px;
 }
 
-.card {
+.cartao {
     background: #070d12;
     width: 370px;
     border: 2px solid #e67c36;
@@ -33,40 +33,40 @@ body {
     overflow: hidden;
 }
 
-.card .information {
+.cartao .informacao {
     padding-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center; /*alinha horizontalmente por causa do flex-direction: column*/
     gap: 10px;
 }
-.card .information img {
+.cartao .informacao img {
     width: 96px;
     height: 96px;
     border-radius: 50px;
     border: 4px solid #e67c36;
 }
 
-.card .information .name{
+.cartao .informacao .nome{
     font-size: 26px;
 }
 
-.card .information .office {
+.cartao .informacao .office {
     font-size: 20px;
     color: #b8bbc5;
 }
 
-.card .conteudo{
-    background-color: #b5c0bc;
+.cartao .conteudo{
+    background-color: #070d12;
     margin-top: 15px;
 }
 
-.card .tabs{
+.cartao .abas{
     display: flex;
     list-style: none;
 }
 
-.card .tabs .tab {
+.cartao .abas .aba {
     width: 50%;
     display: flex;
     justify-content: center;
@@ -76,39 +76,39 @@ body {
     
 }
 
-.tabs img{
+.abas img{
     width: 30px;
 }
-.card .tabs .tab.selecionado{
+.cartao .abas .aba.selecionado{
     background-color: #262626;
 }
-.card .information-tabs{
+.cartao .informacao-abas{
     background-color: #262626;
 }
-.card .tabs .tab:hover{
+.cartao .abas .aba:hover{
     background-color: #414141;
 }
-.information-tabs .infor{
+.informacao-abas .informacao{
     min-height: 260px;
     padding: 15px;
     display: none;
 }
-.information-tabs .infor.selecionado{
+.informacao-abas .informacao.selecionado{
     display: block;
 }
 
-.information-tabs .sub-title{
+.informacao-abas .sub-title{
     font-size: 22px;
     margin-bottom: 25px;
     text-align: center;
 }
-.information-tabs .description{
+.informacao-abas .descricao{
     font-size: 20px;
     max-height: 180px;
     overflow: auto;
     padding-right: 15px;
 }
-.information-tabs .description span{
+.informacao-abas .descricao span{
     color: #eeea1f;
 }
 .redes-list {
